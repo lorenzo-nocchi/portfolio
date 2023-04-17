@@ -1,0 +1,221 @@
+*
+{
+    margin: 0;
+    font-family:'Franklin Gothic Medium';
+}
+
+
+/*-- Index --*/
+
+body
+{
+    background-color: white;
+    color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+nav
+{
+    z-index: 2;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+nav ul li
+{
+    list-style-type: None;
+    display: inline-block;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: None;
+    font-weight: bold;
+}
+li
+{
+    color: white;
+    text-decoration: None;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.nav-button
+{
+    background-color: black;
+    color: white;
+    text-decoration: None;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.contact-button
+{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: None;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition: transform .4s;
+}
+.contact-button:hover
+{
+    transform: scale(1.05);
+}
+
+#welcome
+{
+    display: block;
+    align-items: center;
+    top: 50%;
+    padding: 200px 25px;
+    text-align : center;
+}
+.welcome-photo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.main
+{
+    background-color: white;
+    color: black;
+}
+
+#about
+{
+    display: flex;
+    background-color: #252525;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding: 300px 200px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.about-text
+{
+    font-size: large;
+}
+.about-photo
+{
+    float: right;
+    border-radius: 50%;
+}
+
+#projects
+{
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 150px 0px;
+}
+.project-grid
+{
+
+    display: grid;
+    grid-template-columns: 100px 34%;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 500px;
+    row-gap: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 200px;
+}
+.project-button
+{
+    border-radius: 15px;
+    transition: transform .4s;
+}
+.project-button:hover
+{
+    transform: scale(1.1) rotate(3deg);
+}
+
+.nav-links
+{
+    
+    justify-content: center;
+    transition: transform .4s;
+}
+.nav-links:hover
+{
+    transform: scale(1.05);
+}
+
+footer
+{
+    padding-left: 75%;
+    padding-bottom: 3%;
+}
+
+.hyperlink:link
+{
+    color: orange;
+}
+.hyperlink:visited
+{
+    color: pink;
+}
+
+/*-- Pyng --*/
+#pyng-content
+{
+    display:flex;
+    background-color: #252525;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding: 50px 400px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+.pyng-text
+{
+    font-size: large;
+}
+
+/*-- Portfolio --*/
+
+#portfolio-content
+{
+    display:flex;
+    background-color: #252525;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding: 50px 400px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+.portfolio-text
+{
+    font-size: large;
+}
+.maquette-photo
+{
+    float: right;
+    margin-right: 10px;
+}
