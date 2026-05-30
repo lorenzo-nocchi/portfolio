@@ -429,7 +429,7 @@ function ProfilWindow() {
         </div>
       </div>
 
-      <a href="/src/assets/cv-lorenzo.pdf" download className="profil-cv-btn">
+      <a href="/cv-lorenzo.pdf" download className="profil-cv-btn">
         📄 Télécharger mon CV
       </a>
 
